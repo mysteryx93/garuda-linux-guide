@@ -101,7 +101,7 @@ Third, undervolt the CPU. [Instructions are here.](https://wiki.archlinux.org/ti
 
 Fourth, overclock the GPU. [Here's a method that works for both X11 and Wayland](https://forums.developer.nvidia.com/t/nvidia-gpu-overclocking-under-wayland-guide/290381).
 
-Undervolt/overclock may be different if using AMD.
+Undervolt/overclock may be different if using AMD. Undervolting reduces the heat to the minimum level while preserving stability, and then overclocking cranks up the heat to the maximum supported.
 
 ## Re-installing Nvidia drivers
 
