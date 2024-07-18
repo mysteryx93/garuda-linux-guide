@@ -1,5 +1,5 @@
-# Garuda Linux Beginner Guide
-### This beginner guide will help you setup Garuda in an optimal way out-of-the-box. This guide is meant to solve several issues are reduce the need for tinkering.
+# Garuda Linux Optimization Guide
+### This guide will help you setup Garuda in an optimal way. This guide is meant to solve several issues are reduce the need for tinkering.
 
 This is not meant to teach the usage of Linux, but rather, to streamline many configuration tweaks for a better experience.
 
