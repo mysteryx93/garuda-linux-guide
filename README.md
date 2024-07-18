@@ -1,6 +1,8 @@
 # Garuda Linux Beginner Guide
 ### This beginner guide will help you setup Garuda in an optimal way out-of-the-box. This guide is meant to solve several issues are reduce the need for tinkering.
 
+This is not meant to teach the usage of Linux, but rather, to streamline many configuration tweaks for a better experience.
+
 ## Why Garuda Linux?
 - It looks gorgeous. I tried other distros and platforms and it's really hard to get consistent look-and-feel across Qt and GTK apps!
 - It has the flexibility of Arch
