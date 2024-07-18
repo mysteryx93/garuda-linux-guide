@@ -74,14 +74,20 @@ Now, you can click anywhere in the top bar to unmaximize your windows! You can a
 
 ## Improve shortcuts
 
+Open 'Shortcuts' window.
+
+By default, `Ctrl+F4` is 'Switch to Desktop 4' which prevents you from closing FireDragon tabs. You'll most certainly want to remove that.
+
+Search `Ctrl+F4` and uncheck it. You can also disable all `Ctrl+F` shortcuts from 1-12 if they interfere with your apps. Click Apply.
+
 This is personal taste, but in the `Shortcuts` window, you can consider setting these up
 
-- Meta+Tab: Switch between activities
-- Meta+Enter: Open Konsole
-- Meta+F: Open FireDragon
-- Meta+N: Open Kate
+- `Meta+Tab`: Switch between activities
+- `Meta+Enter`: Open Konsole
+- `Meta+F`: Open FireDragon
+- `Meta+N`: Open Kate
 
-Instead of using Desktops, I'm using 2 Activities and flip between both using Meta+Tab. To setup a second Activity, press Meta+Q and create it.
+Instead of using Desktops, I'm using 2 Activities and flip between both using `Meta+Tab`. To setup a second Activity, press Meta+Q and create it.
 
 ## Improve performance
 
