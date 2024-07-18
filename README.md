@@ -131,7 +131,7 @@ Garuda is a small community, which can make it difficult to find solutions to ga
 
 ## Fixing DaVinci
 
-One big issue I had with Garuda is DaVinci.
+One big issue I had with Garuda is DaVinci Resolve, a great video editor.
 
 The menus wouldn't appear when `Global Menus` widget is used. [Solution is here](https://forum.garudalinux.org/t/guide-old-opinion-configuring-garuda-linux-for-laptop/7685). Switching to Wayland solves the problem, and there's a fix for X11.
 
