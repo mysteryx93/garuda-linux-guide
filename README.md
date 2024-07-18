@@ -97,6 +97,12 @@ Second, let's install `ALHP` repos for v3 or v4 optimized binaries. It's not 100
 
 [Follow the instructions here](https://github.com/an0nfunc/ALHP)
 
+Third, undervolt the CPU. [Instructions are here.](https://wiki.archlinux.org/title/Undervolting_CPU)
+
+Fourth, overclock the GPU. [Here's a method that works for both X11 and Wayland](https://forums.developer.nvidia.com/t/nvidia-gpu-overclocking-under-wayland-guide/290381).
+
+Undervolt/overclock may be different if using AMD.
+
 ## Re-installing Nvidia drivers
 
 The Nvidia driver can sometimes get messed up. Use [nvidia-all](https://github.com/Frogging-Family/nvidia-all) to re-install it. Keep that utility nearby.
