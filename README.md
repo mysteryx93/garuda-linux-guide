@@ -72,6 +72,8 @@ However, with the default layout, a maximed screen can only be unmaximized by lo
 
 Now, you can click anywhere in the top bar to unmaximize your windows! You can also drag-drop from the top but it's a little bit clunky.
 
+Quick fix for FireDragon: by default, there are margins wasting space all around the browser and making it hard to click the scrollbar that doesn't touch the edge. To remove that, go to FireDragon settings, Design, and at the bottom, unckeck "Round the corners of pages".
+
 ## Improve shortcuts
 
 Open 'Shortcuts' window.
