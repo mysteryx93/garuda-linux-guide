@@ -67,7 +67,7 @@ However, with the default layout, a maximed screen can only be unmaximized by lo
 - Move the Window Title to the right of Global Menu. Double-clicking the Window Title allows unmaximizing the window. We'll want to fill the empty space with that widget, or...
 - Download [Panel Spacer Extended](https://store.kde.org/p/2128047) (can also install from Plasma Widgets but that didn't work well for me). This widget allows unmaximizing windows when double-clicking empty space.
 - Click 'Add Widgets' then 'Get New Widgets', 'Install widget from local file', and select the file you just downloaded.
-- Delete both `Spacer` widgets and replace them with 2 `Panel Spacer Extended`.
+- Delete both `Spacer` widgets and replace them with 2 `Panel Spacer Extended`. You now have the Window Title centered, and the whole top section reactive to double-clicks.
 - For each of them, right-click and 'Configure Panel Spacer Extended'. Disable 'Highlight spacer background' and customize the actions to your taste.
 
 Now, you can click anywhere in the top bar to unmaximize your windows! You can also drag-drop from the top but it's a little bit clunky.
