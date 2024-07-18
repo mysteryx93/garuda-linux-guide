@@ -90,6 +90,7 @@ This is personal taste, but in the `Shortcuts` window, you can consider setting 
 - `Meta+Enter`: Open Konsole
 - `Meta+F`: Open FireDragon
 - `Meta+N`: Open Kate
+- `Meta+C`: Open Calculator
 
 Instead of using Desktops, I'm using 2 Activities and flip between both using `Meta+Tab`. To setup a second Activity, press Meta+Q and create it.
 
