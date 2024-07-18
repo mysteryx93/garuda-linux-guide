@@ -93,6 +93,8 @@ First, let's install `linux-cachyos` kernel.
 - Select `linux-cachyos` and `Install`
 - Keep the default kernel in case the custom kernel causes issues! You can select the kernel in the boot menu.
 
+You can set it as the default during boot by editing `/etc/default/grub` and setting `GRUB_DEFAULT` to `1 1` (first number is the 2nd boot entry, second number is the kernel position in the list starting from 0). Then run `update-grub`.
+
 Second, let's install `ALHP` repos for v3 or v4 optimized binaries. It's not 100% stable but I never had any issues with it except with 1 package: Intel OpenCL. It can improve performance by about 15%.
 
 [Follow the instructions here](https://github.com/an0nfunc/ALHP)
