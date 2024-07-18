@@ -76,10 +76,10 @@ Now, you can click anywhere in the top bar to unmaximize your windows! You can a
 
 This is personal taste, but in the `Shortcuts` window, you can consider setting these up
 
-Meta+Tab: Switch between activities
-Meta+Enter: Open Konsole
-Meta+F: Open FireDragon
-Meta+N: Open Kate
+Meta+Tab: Switch between activities  
+Meta+Enter: Open Konsole  
+Meta+F: Open FireDragon  
+Meta+N: Open Kate  
 
 Instead of using Desktops, I'm using 2 Activities and flip between both using Meta+Tab. To setup a second Activity, press Meta+Q and create it.
 
