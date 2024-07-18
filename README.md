@@ -122,12 +122,13 @@ The Nvidia driver can sometimes get messed up. Use [nvidia-all](https://github.c
 Garuda is a small community, which can make it difficult to find solutions to garuda-related problems. Most Garuda-related bugs are shared with Arch and Manjaro. You might have more luck searching issues related to Manjaro.
 
 1. Make sure your system is up-to-date. Open a console and enter `update`. Make sure to reboot.
-1. Search Garuda-related problem
-2. Search Manjaro-related problem
-4. Consult [ArchWiki](https://wiki.archlinux.org/)
-5. Try botting with the default kernel
-6. You can use the boot menu to revert to pre-update state until an issue is fixed upstream
-5. Ask in the [Garuda Community](https://forum.garudalinux.org/), showing the homework you've made first. They're a lot more beginner-friendly than the Arch community, but do expect you to first put your own efforts.
+2. Look in the [Garuda Wiki](https://wiki.garudalinux.org/en/home)
+3. Search Garuda-related problem
+4. Search Manjaro-related problem
+5. Consult [ArchWiki](https://wiki.archlinux.org/)
+6. Try botting with the default kernel
+7. You can use the boot menu to revert to pre-update state until an issue is fixed upstream
+8. Ask in the [Garuda Community](https://forum.garudalinux.org/), showing the homework you've made first. They're a lot more beginner-friendly than the Arch community, but do expect you to first put your own efforts.
 
 ## Fixing DaVinci
 
