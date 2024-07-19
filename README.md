@@ -134,7 +134,7 @@ Garuda is a small community, which can make it difficult to find solutions to ga
 
 [Community Support](https://forum.garudalinux.org/)
 
-They're a lot more beginner-friendly than the Arch community, but they expect you to first put your own efforts.
+They're a lot more beginner-friendly than the Arch community, but they expect you to put your own efforts first.
 
 1. Run `update` to update your system and reboot.
 2. Use Garuda Forum internal search function to search for a similar question
