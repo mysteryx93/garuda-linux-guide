@@ -122,12 +122,12 @@ The Nvidia driver can sometimes get messed up. Use [nvidia-all](https://github.c
 
 ## In case of problems
 
-Garuda is a small community, which can make it difficult to find solutions to garuda-related problems. Most Garuda-related bugs are shared with Arch and Manjaro. You might have more luck searching issues related to Manjaro.
+Garuda is a small community, which can make it difficult to find solutions to garuda-related problems. Most Garuda-related bugs are shared with Arch and Manjaro. You might have more luck searching issues related to Manjaro, Arch or Endeavor OS.
 
 - Look in the [Garuda Wiki](https://wiki.garudalinux.org/en/home)
 - Consult [ArchWiki](https://wiki.archlinux.org/)
 - Search Garuda-related problem
-- Search Manjaro/Endeavour-related problem (as Garuda may not have enough community-generated content)
+- Search Manjaro/Arch/Endeavour-related problem
 - Try botting with the default kernel
 - You can use the boot menu to revert to pre-update state until an issue is fixed upstream
 
