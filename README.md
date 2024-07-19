@@ -137,7 +137,7 @@ Garuda is a small community, which can make it difficult to find solutions to ga
 They're a lot more beginner-friendly than the Arch community, but they expect you to first put your own efforts.
 
 1. Run `update` to update your system and reboot.
-2. Search Garuda Forum internal search function to search for a similar question
+2. Use Garuda Forum internal search function to search for a similar question
 3. Create a new post in the Issues category
 4. Show the homework you've made -- they don't like putting efforts if you're not putting yours
 5. Run `garuda-inxi` and add it to your post, within a code block
