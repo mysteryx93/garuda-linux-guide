@@ -130,7 +130,7 @@ Garuda is a small community, which can make it difficult to find solutions to ga
 - Search Manjaro/Arch/Endeavour-related problem
 - Try booting with the default kernel
 - You can use the boot menu to revert to pre-update state until an issue is fixed upstream
-- Chat GPT can be good at answering Linux-related questions, are isn't hostile to newbie repetitive questions
+- Chat GPT can be good at answering Linux-related questions, and isn't hostile to newbie repetitive questions
 
 [Community Support](https://forum.garudalinux.org/)
 
