@@ -124,14 +124,23 @@ The Nvidia driver can sometimes get messed up. Use [nvidia-all](https://github.c
 
 Garuda is a small community, which can make it difficult to find solutions to garuda-related problems. Most Garuda-related bugs are shared with Arch and Manjaro. You might have more luck searching issues related to Manjaro.
 
-1. Make sure your system is up-to-date. Open a console and enter `update`. Make sure to reboot.
-2. Look in the [Garuda Wiki](https://wiki.garudalinux.org/en/home)
-3. Search Garuda-related problem
-4. Search Manjaro-related problem
-5. Consult [ArchWiki](https://wiki.archlinux.org/)
-6. Try botting with the default kernel
-7. You can use the boot menu to revert to pre-update state until an issue is fixed upstream
-8. Ask in the [Garuda Community](https://forum.garudalinux.org/), showing the homework you've made first. They're a lot more beginner-friendly than the Arch community, but do expect you to first put your own efforts.
+- Look in the [Garuda Wiki](https://wiki.garudalinux.org/en/home)
+- Consult [ArchWiki](https://wiki.archlinux.org/)
+- Search Garuda-related problem
+- Search Manjaro/Endeavour-related problem (as Garuda may not have enough community-generated content)
+- Try botting with the default kernel
+- You can use the boot menu to revert to pre-update state until an issue is fixed upstream
+
+[Community Support](https://forum.garudalinux.org/)
+
+They're a lot more beginner-friendly than the Arch community, but they expect you to first put your own efforts.
+
+1. Run `update` to update your system and reboot.
+2. Search Garuda Forum internal search function to search for a similar question
+3. Create a new post in the Issues category
+4. Show the homework you've made -- they don't like putting efforts if you're not putting yours
+5. Run `garuda-inxi` and add it to your post, within a code block
+6. DO NOT IGNORE THE TEMPLATE, POST YOUR `garuda-inxi` OR YOU WILL GET NO HELP!
 
 ## Fixing DaVinci
 
