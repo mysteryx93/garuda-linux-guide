@@ -143,6 +143,76 @@ They're a lot more beginner-friendly than the Arch community, but they expect yo
 5. Run `garuda-inxi` and add it to your post, within a code block
 6. DO NOT IGNORE THE TEMPLATE, POST YOUR `garuda-inxi` OR YOU WILL GET NO HELP!
 
+## Fixing WPS Office Spellcheck
+
+WPS Office is a great replacement to Microsoft Office and is free, and has the best compatibility with MS Office. One problem, however, is that spellcheck isn't working in arch-based distros! Here's the fix.
+
+Install package wps-office-all-dicts-win-languages from AUR
+
+Run the following commands
+```
+mkdir -p ~/.local/share/Kingsoft/office6/dicts/all/
+cp -a /usr/lib/office6/dicts/spellcheck/ ~/.local/share/Kingsoft/office6/dicts/all/
+mkdir ~/.local/share/Kingsoft/office6/dicts/fr_FR
+printf "[Dictionary]\nDisplayName=Multilingual (symlink)\nDisplayName[en_US]=Multilingual (symlink)" > ~/.local/share/Kingsoft/office6/dicts/fr_FR/dict.conf
+```
+
+Create this script in your home directory or wherever you want it and paste this content
+
+    micro ~/wps_spell.sh
+
+```
+#!/bin/bash
+# This script allows to change the spellcheck language in WPS
+# A symlink of it is created in ~/.local/bin
+FR_DIR="/home/$(whoami)/.local/share/Kingsoft/office6/dicts/fr_FR"
+USE_HUNSPELL="0"
+if [ -z "$1" ]; then
+  # If no argument is provided, return current language
+  DIC_FILE=$(realpath $FR_DIR/main.dic)
+  if [ $USE_HUNSPELL == "1" ]; then
+    CURRENT=$(basename $DIC_FILE)
+  else
+    CURRENT=$(basename $(dirname $DIC_FILE))
+  fi
+  echo "WPS currently using language $CURRENT"
+else
+  if [ $USE_HUNSPELL == "1" ]; then
+    # Use Hunspell dictionary in /usr/share/hunspell
+    SOURCE_DIR="/usr/share/hunspell"
+    DIC_FILE="$SOURCE_DIR/$1.dic"
+    AFF_FILE="$SOURCE_DIR/$1.aff"
+  else
+    # Use dictionary available in dicts/all. These should be first downloaded from
+    # https://github.com/HoLuLuLu/wps-office-multilang/tree/master/wps-office-bin/opt/kingsoft/wps-office/office6/dicts/spellcheck 
+    SOURCE_DIR="/home/$(whoami)/.local/share/Kingsoft/office6/dicts/all"
+    DIC_FILE="$SOURCE_DIR/$1/main.dic"
+    AFF_FILE="$SOURCE_DIR/$1/main.aff"
+  fi
+
+  # If an argument is provided, check if selected language is available"
+  if test -f $DIC_FILE; then
+    ln -sf $DIC_FILE $FR_DIR/main.dic
+    ln -sf $AFF_FILE $FR_DIR/main.aff
+    echo "WPS language successfully set to $1!"
+  else
+    echo "ERROR: Language $1 was not found in $SOURCE_DIR. Please try again."
+  fi
+fi
+```
+
+Make it executable
+
+    chmod u+x ~/wps_spell.sh
+
+Uninstall `wps-office-all-dicts-win-languages` package.
+
+To use, open terminal in home folder
+
+- `./wps_spell.sh en_US` to set language as en_US
+- `./wps_spell.sh` to view currently set language
+- In WPS Office, set language to `Multilingual (symlink)`.
+
 ## Fixing DaVinci
 
 One big issue I had with Garuda is DaVinci Resolve, a great video editor.
