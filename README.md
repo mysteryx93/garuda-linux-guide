@@ -145,7 +145,7 @@ They're a lot more beginner-friendly than the Arch community, but they expect yo
 
 ## Fixing WPS Office Spellcheck
 
-WPS Office is a great replacement to Microsoft Office and is free, and has the best compatibility with MS Office. One problem, however, is that spellcheck isn't working in arch-based distros! Here's the fix.
+WPS Office is a great replacement to Microsoft Office and is free, and has the best compatibility with MS Office. One problem, however, is that spellcheck isn't working in arch-based distros! Here's the fix. We noticed that spellcheck worked for some languages so... we bind a working language (fr_FR) to any dictionary we want.
 
 Install package `wps-office-all-dicts-win-languages` from AUR
 
