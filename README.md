@@ -152,7 +152,7 @@ Install package `wps-office-all-dicts-win-languages` from AUR
 Run the following commands
 ```
 mkdir -p ~/.local/share/Kingsoft/office6/dicts/all/
-cp -a /usr/lib/office6/dicts/spellcheck/ ~/.local/share/Kingsoft/office6/dicts/all/
+cp -a /usr/lib/office6/dicts/spellcheck/* ~/.local/share/Kingsoft/office6/dicts/all/
 mkdir ~/.local/share/Kingsoft/office6/dicts/fr_FR
 printf "[Dictionary]\nDisplayName=Multilingual (symlink)\nDisplayName[en_US]=Multilingual (symlink)" > ~/.local/share/Kingsoft/office6/dicts/fr_FR/dict.conf
 ```
